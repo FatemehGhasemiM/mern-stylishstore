@@ -58,7 +58,7 @@ const data = {
       price: 36.98,
       countInStock: 8,
       brand: "COOFANDY",
-      rating: 4.3,
+      rating: 4.8,
       numReviews: 10,
       description: `<ul>
         <li>
@@ -99,7 +99,7 @@ const data = {
       price: 25.99,
       countInStock: 10,
       brand: "COOFANDY",
-      rating: 4.3,
+      rating: 3.7,
       numReviews: 13,
       description: `<ul>
         <li>
@@ -140,7 +140,7 @@ const data = {
       price: 19.99,
       countInStock: 10,
       brand: "COOFANDY",
-      rating: 4.0,
+      rating: 2.6,
       numReviews: 7,
       description: `<ul>
         <li>
