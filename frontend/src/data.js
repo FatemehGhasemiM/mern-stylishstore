@@ -6,7 +6,7 @@ const data = {
       category: "Jackets & Coats",
       image: "/images/pic1.jpg", // 679px * 829px
       price: 35.98,
-      countInStock: 10,
+      countInStock: 0,
       brand: "COOFANDY",
       rating: 4.0,
       numReviews: 18,
@@ -61,35 +61,36 @@ const data = {
       rating: 4.8,
       numReviews: 10,
       description: `<ul>
-        <li>
-          [SHACKET JACKET] COOFANDY work lightweight shirt jacket with 2
-          practical pocket at chest is a fashion style and a must-have item in
-          everyone's wardrobe. Lapel coller, button down closure, relaxed fit
-          design make you look casual and handsome.
-        </li>
-        <li>
-          [2 FLAP POCKETS] This casual shirt jackets for men feature 2 outer
-          pockets for quick-access to things such as IDs and change. Our fall
-          shacket is your shield against cold, transitional jacket for every
-          season.
-        </li>
-        <li>
-          [BUTTON CUFFS] Easy to roll-up button cuffs and a straight hem provide
-          ideal wear. You can wear it as a part of your workwear look or replace
-          your traditional blazer with this overshirt to create a less formal
-          look that still works around the office.
-        </li>
-        <li>
-          [VERSATILE USAGE] Our vintage lightweight shacket jacket can be worn
-          as a button-up shirt or opened as a jacket. It's perfect for office,
-          school, daily casual wear, and weekend camping trips. Pair it with
-          casual pants, basic T-shirt, or a sweater.
-        </li>
-        <li>
-          [GIFT & SIZE] Perfect gift for your father, husband, son or friends.
-          Please choose the size carefully according to our SIZE CHART.
-        </li>
-      </ul>`,
+            <li>
+              [SHACKET JACKET] COOFANDY work lightweight shirt jacket with 2
+              practical pocket at chest is a fashion style and a must-have item
+              in everyone's wardrobe. Lapel coller, button down closure, relaxed
+              fit design make you look casual and handsome.
+            </li>
+            <li>
+              [2 FLAP POCKETS] This casual shirt jackets for men feature 2 outer
+              pockets for quick-access to things such as IDs and change. Our
+              fall shacket is your shield against cold, transitional jacket for
+              every season.
+            </li>
+            <li>
+              [BUTTON CUFFS] Easy to roll-up button cuffs and a straight hem
+              provide ideal wear. You can wear it as a part of your workwear
+              look or replace your traditional blazer with this overshirt to
+              create a less formal look that still works around the office.
+            </li>
+            <li>
+              [VERSATILE USAGE] Our vintage lightweight shacket jacket can be
+              worn as a button-up shirt or opened as a jacket. It's perfect for
+              office, school, daily casual wear, and weekend camping trips. Pair
+              it with casual pants, basic T-shirt, or a sweater.
+            </li>
+            <li>
+              [GIFT & SIZE] Perfect gift for your father, husband, son or
+              friends Please choose the size carefully according to our SIZE
+              CHART.
+            </li>
+          </ul>`,
     },
     {
       name: "COOFANDY Men's Casual Shirt Shacket Long Sleeve Button Down Lightweight Jacket",

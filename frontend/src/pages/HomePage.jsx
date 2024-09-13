@@ -2,6 +2,7 @@ import { useEffect, useReducer } from "react";
 // import { Link } from "react-router-dom";
 import axios from "axios";
 import logger from "use-reducer-logger";
+import { Helmet } from "react-helmet-async";
 import Product from "../components/Product";
 import { Row, Col } from "react-bootstrap";
 
@@ -39,6 +40,9 @@ const HomePage = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>stylish</title>
+      </Helmet>
       <h1>Featured Products</h1>
       <section className="products">
         {loading ? (
