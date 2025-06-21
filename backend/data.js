@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: "1",
       name: "COOFANDY Men's Lightweight Zip Up Jacket Stand Collar Jacket Casual Light Golf Jackets with Pocket",
       slug: "coofandy-mens-lightweight-zip-up-jacket-stand-collar-jacket-casual-light-golf-jackets-with-pocket",
       category: "Jackets & Coats",
@@ -51,6 +52,7 @@ const data = {
       </ul>`,
     },
     {
+      _id: "2",
       name: "COOFANDY Men's Casual Lightweight Shirt Jacket Work Shacket Jackets Military Button Down Overshirt With Flap Pockets",
       slug: "coofandy-mens-casual-lightweight-shirt-jacket-work-shacket-jackets-military-button-down-overshirt-with-flap-pockets",
       category: "Jackets & Coats",
@@ -93,6 +95,7 @@ const data = {
           </ul>`,
     },
     {
+      _id: "3",
       name: "COOFANDY Men's Casual Shirt Shacket Long Sleeve Button Down Lightweight Jacket",
       slug: "coofandy-mens-casual-shirt-shacket-long-sleeve-button-down-lightweight-jacket",
       category: "Jackets & Coats",
@@ -134,6 +137,7 @@ const data = {
       </ul>`,
     },
     {
+      _id: "4",
       name: "COOFANDY Men's Flannel Shirt Long Sleeve Lightweight Plaid Shirt Casual Button Down Shirts Jacket",
       slug: "coofandy-mens-flannel-shirt-long-sleeve-lightweight-plaid-shirt-casual-button-down-shirts-jacket",
       category: "Jackets & Coats",

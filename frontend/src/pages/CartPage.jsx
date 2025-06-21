@@ -34,7 +34,7 @@ const HomePage = () => {
                         alt={item.name}
                         className="img-fluid rounded img-thumbnail"
                       ></img>{" "}
-                      <Link to={`/products/${item.slug}`}>{item.name}</Link>
+                      <Link to={`/product/${item.slug}`}>{item.name}</Link>
                     </Col>
                     <Col md={3}>
                       <Button variant="light" disabled={item.quantity === 1}>
@@ -66,7 +66,7 @@ const HomePage = () => {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <h3>
-                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 5)}{" "}
+                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{" "}
                     items) : ${" "}
                     {cartItems.reduce((a, c) => a + c.price * c.quantity, 0)}
                   </h3>

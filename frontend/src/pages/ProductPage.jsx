@@ -30,7 +30,7 @@ const ProductPage = () => {
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
     loading: true,
     error: "",
-    product: [],
+    product: {},
   });
   useEffect(() => {
     const fetchData = async () => {
@@ -51,12 +51,17 @@ const ProductPage = () => {
   const { cart } = state;
   const addToCartHandler = async () => {
     // current product exists in the cart or not
-    const existItem = cart.cartItem.find((x) => x._id === product._id);
+    const existItem = cart.cartItems.find((x) => x._id === product._id);
     // console.log("existItem productPage");
     // console.log(existItem);
 
     const quantity = existItem ? existItem.quantity + 1 : 1;
 
+    console.log("product._id:", product._id);
+    // if (!product._id) {
+    //   window.alert("Product info not loaded yet.");
+    //   return;
+    // }
     // Checking the stock from the server and stopping the operation if the product is out of stock
     const { data } = await axios.get(`/api/products/${product._id}`);
     if (data.countInStock < quantity) {

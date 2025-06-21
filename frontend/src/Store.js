@@ -23,13 +23,13 @@ function reducer(state, action) {
         (item) => item._id === newItem._id
       );
       // If exists, replace it with the updated item(newItem); else, add new item
-      const cartItmes = existItem
+      const cartItems = existItem
         ? state.cart.cartItems.map((item) =>
             item._id === existItem._id ? newItem : item
           )
         : [...state.cart.cartItems, newItem];
       // Return updated state with new cart items
-      return { ...state, cart: { ...state.cart, cartItmes } };
+      return { ...state, cart: { ...state.cart, cartItems } };
     default:
       return state;
   }
